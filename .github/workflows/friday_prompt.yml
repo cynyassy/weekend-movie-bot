@@ -26,6 +26,10 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
-
+      
+      - name: Check environment variables
+        run: |
+                python -c "import os; print('GEMINI:', bool(os.getenv('GEMINI_API_KEY'))); print('EMAIL_FROM:', bool(os.getenv('EMAIL_FROM'))); print('EMAIL_APP_PASSWORD:', bool(os.getenv('EMAIL_APP_PASSWORD'))); print('EMAIL_TO:', bool(os.getenv('EMAIL_TO')))"
+    
       - name: Send weekend prompt
         run: python main.py
