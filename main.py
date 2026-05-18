@@ -68,10 +68,6 @@ def format_email_body(prompt_text: str) -> str:
 
 Starts: Friday, 8 a.m.
 Submit by: Sunday, 8 p.m.
-
-Any medium.
-No critique.
-Make something and have fun!
 """
 
 
