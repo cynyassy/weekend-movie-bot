@@ -10,6 +10,8 @@ The challenge:
 - It should not be overly poetic or abstract.
 - It should work well in an Indian context, though it does not always have to be Indian.
 - It can be a word, object, phrase, place, mood, food, memory, or line of dialogue.
+- Treat previously used prompts as a semantic exclusion list, not just an exact-text list.
+- Do not reuse the central object, image, setting, action, or mood of a previous prompt in a close variation. For example, if "The flickering street light" was used, do not suggest a flickering tube light, lamp, bulb, or other lighting variation.
 
 Good examples:
 - Pani Puri
